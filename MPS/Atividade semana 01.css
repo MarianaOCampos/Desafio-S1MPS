@@ -1,0 +1,30 @@
+body {
+    background-color:#FFDEAD	;
+    padding-left:45px ;
+}
+#t1 {
+    color: crimson;
+}
+.fundo{
+   color:#DB7093;
+   padding-left: 45px;
+}
+h1{
+    padding-left:20px;
+    padding-top: 30px;
+}
+
+#t2{
+    padding-top: 0px;
+    color: #DC143C	;
+    line-height: 0px;
+}
+#t5{
+    color: black;
+}
+#t6{
+    color: black;
+}
+img{
+    padding-left: 20px;
+}
