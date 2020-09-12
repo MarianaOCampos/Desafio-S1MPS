@@ -1,33 +1,111 @@
-body {
-    background-color:#FFDEAD	;
-    padding-left:45px ;
+html, body{
+    margin: 0;
 }
-#t1 {
-    color: crimson;
-}
-.fundo{
-   color:#DB7093;
-   padding-left: 45px;
-}
-h1{
-    padding-left:20px;
-    padding-top: 30px;
+header{
+    background-color: black;
+    color: #F0E68C;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
 }
 
-#t2{
-    padding-top: 0px;
-    color: #DC143C	;
-    line-height: 0px;
+#logo{
+    width:55px;
+    position: absolute;
+    top: 10px;
+    margin-left: 5%;
 }
+
+#menu{
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 5px;
+}
+
+li{
+    float: left;
+    padding: 20 10 20 10;
+}
+
+li:hover{
+    background-color: #F0E68C ;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 #t5{
     color: black;
 }
-#t6{
-    color: black;
-}
+
 img{
     padding-left: 20px;
 }
-#t8{
-    padding-left: 300px;
+#imgfundo{
+    background: url("img/pexels-negative-space-34592.jpg");
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+}
+#título{
+    color: #F0E68C			;
+    padding-top: 20%;
+    font-size: 90px;
+}
+#subtítulo{
+    color: #F0E68C;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+#acao{
+    color: #F0E68C;
+    border: 1px solid;
+    padding: 10px 20px 10px 20px;
+}
+.icone{
+    width: 51px;
+}
+#projeto{
+    padding: 20px;
+    float: left;
+    width: 100%;
+}
+#objetivos{
+    width: 100%;
+}
+body {margin:0;}
+
+
+.coluna{
+    float:left;
+    padding: 0 5%;
+    position: relative;
+}
+.dois{
+    width: 40%;
+}
+.tres{
+    width: 29%;
+    padding: 0 2%;
+}
+.justificado{
+    text-align: justify;
+
+}
+.centralizado{
+    text-align: center;
+}
+#melhoras{
+    width: 100%;
+}
+footer{
+    background-color: #F0E68C;
+    float: left;
+    width: 100%;
 }
